@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sofia');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.container {
+  margin-top: 12.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 132, 227,0.1);
+  width: 40vw;
+  height: 75vh;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+}
+
+#details {
+  width: 50%;
+  max-width: 300px;
+}
+
+#button {
+  background-color: #0984e3;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;  
+  margin: 0.5rem 0; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.list-item {
+  list-style: none;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color:#636e72;
+  border-bottom: 1px solid #0984e3;
+  margin: 0.4rem 0;
+  color: #fff;
+}
+
+#new-location {
+  padding: 0.6rem 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem;
+}
